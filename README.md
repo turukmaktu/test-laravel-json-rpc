@@ -26,4 +26,10 @@
 
 
 
+ data/app/Http/Procedures/FormsProcedure.php - обработчик json-rpc
+ регестрируется в data/routes/api.php
  
+ виджет {{ Widget::run('Form',['page_uid' => 'uid_one']) }} вставляется во view
+ файлы 
+ - site/resources/views/widgets/form.blade.php
+ - site/app/Widgets/Form.php
